@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fubuki Soft - AI Workforce Augmentation</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="FubukiLogo_Horizontalwhitetext.png" alt="Fubuki Soft" height="40">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#product">Product</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#solutions">Solutions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#resources">Resources</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                </ul>
+                <div class="d-flex">
+                    <a href="#contact" class="btn btn-outline-light me-2">Contact Us</a>
+                    <a href="#demo" class="btn btn-light text-primary">Try AIWAN Now</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="d-flex align-items-center">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+                    <h1 class="display-4 fw-bold mb-4">AI Workforce Augmentation</h1>
+                    <h2 class="h3 mb-4">Transform Your Business Operations with AIWAN</h2>
+                    <p class="lead mb-5">Fubuki Soft's AI Avatars are always available, always accurate, and speak your customers' language — no CPF, no leave, no training gaps.</p>
+                    <div class="d-flex flex-wrap gap-3">
+                        <a href="#demo" class="btn btn-primary btn-lg">Try AIWAN Now</a>
+                        <a href="#contact" class="btn btn-outline-light btn-lg">Schedule a Demo</a>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
+                    <div class="hero-image">
+                        <div class="ai-avatar-container">
+                            <div class="ai-avatar">
+                                <div class="avatar-screen">
+                                    <div class="avatar-face"></div>
+                                    <div class="avatar-greeting">
+                                        <span>Hello!</span>
+                                        <span>How can I assist you?</span>
+                                    </div>
+                                </div>
+                                <div class="avatar-stand"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-bg-elements">
+            <div class="snowflake-pattern"></div>
+            <div class="circuit-pattern"></div>
+        </div>
+    </section>
+
+    <!-- Core Capabilities Section -->
+    <section id="capabilities" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <h2 class="section-title">AIWAN Core Capabilities</h2>
+                <p class="section-subtitle">Advanced AI avatars that excel in multiple capabilities</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="capability-card">
+                        <div class="icon-container">
+                            <i class="fas fa-comments"></i>
+                        </div>
+                        <h3>Natural Conversations</h3>
+                        <p>Understands and speaks like a trained staff member with advanced NLP and RAG technology.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="capability-card">
+                        <div class="icon-container">
+                            <i class="fas fa-id-card"></i>
+                        </div>
+                        <h3>Smart Recognition</h3>
+                        <p>Can scan ICs, recognize faces, and pull up records with Smart Visual Rec & Secure ID.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="capability-card">
+                        <div class="icon-container">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>Security Compliant</h3>
+                        <p>PDPA-compliant and security-owned and audited models for trusted interactions.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="capability-card">
+                        <div class="icon-container">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3>Data Insights</h3>
+                        <p>Provides actionable data insights for continuous operational improvement.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="500">
+                    <div class="capability-card">
+                        <div class="icon-container">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                        <h3>Brand Customizable</h3>
+                        <p>Fully brand-customizable to embody your unique identity and company values.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="600">
+                    <div class="capability-card">
+                        <div class="icon-container">
+                            <i class="fas fa-plug"></i>
+                        </div>
+                        <h3>Seamless Integration</h3>
+                        <p>Integrates into your POS, CRM, EMR systems with ease for unified operations.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Client Trust Section -->
+    <section id="trust" class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <h2 class="section-title">Trusted by Industry Leaders</h2>
+                <p class="section-subtitle">Join the growing list of businesses transforming their operations with AIWAN</p>
+            </div>
+            <div class="client-logos" data-aos="fade-up" data-aos-delay="100">
+                <!-- Placeholder for future client logos -->
+                <div class="logo-placeholder">Future Client</div>
+                <div class="logo-placeholder">Future Client</div>
+                <div class="logo-placeholder">Future Client</div>
+                <div class="logo-placeholder">Future Client</div>
+            </div>
+            <div class="testimonial-carousel mt-5" data-aos="fade-up" data-aos-delay="200">
+                <div class="testimonial-item active">
+                    <div class="testimonial-content">
+                        <p>"AIWAN has transformed our customer service operations, reducing costs while improving satisfaction scores."</p>
+                        <div class="testimonial-author">
+                            <h4>Future Client</h4>
+                            <p>CEO, Company Name</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Advantage Section -->
+    <section id="advantage" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <h2 class="section-title">The Fubuki Advantage</h2>
+                <p class="section-subtitle">Unlike basic kiosks or chatbots, AIWAN avatars see, speak, and understand like real staff</p>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+                    <div class="advantage-stats">
+                        <div class="stat-item">
+                            <div class="stat-number"><span class="counter" data-target="50">0</span>%</div>
+                            <div class="stat-label">Cost Reduction</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number"><span class="counter" data-target="24">0</span>/7</div>
+                            <div class="stat-label">Always Available</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number"><span class="counter" data-target="3">0</span>x</div>
+                            <div class="stat-label">Staff Replacement</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
+                    <div class="advantage-list">
+                        <div class="advantage-item">
+                            <div class="advantage-icon">
+                                <i class="fas fa-dollar-sign"></i>
+                            </div>
+                            <div class="advantage-content">
+                                <h3>Massive Cost Savings</h3>
+                                <p>50% reduction compared to traditional human staffing costs.</p>
+                            </div>
+                        </div>
+                        <div class="advantage-item">
+                            <div class="advantage-icon">
+                                <i class="fas fa-rocket"></i>
+                            </div>
+                            <div class="advantage-content">
+                                <h3>Boosted Efficiency</h3>
+                                <p>24/7 automation frees human teams for strategic, high-value work.</p>
+                            </div>
+                        </div>
+                        <div class="advantage-item">
+                            <div class="advantage-icon">
+                                <i class="fas fa-smile"></i>
+                            </div>
+                            <div class="advantage-content">
+                                <h3>Elevated Customer Experience</h3>
+                                <p>Consistent, instant, multilingual service drives higher CSAT scores.</p>
+                            </div>
+                        </div>
+                        <div class="advantage-item">
+                            <div class="advantage-icon">
+                                <i class="fas fa-chart-pie"></i>
+                            </div>
+                            <div class="advantage-content">
+                                <h3>Rapid ROI</h3>
+                                <p>See returns in months with our hardware-inclusive lease model.</p>
+                            </div>
+                        </div>
+                        <div class="advantage-item">
+                            <div class="advantage-icon">
+                                <i class="fas fa-expand-arrows-alt"></i>
+                            </div>
+                            <div class="advantage-content">
+                                <h3>Effortless Scalability</h3>
+                                <p>Instantly adjust your AI workforce as your business needs change.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Use Cases Section -->
+    <section id="use-cases" class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <h2 class="section-title">AIWAN in Action</h2>
+                <p class="section-subtitle">Discover how AIWAN transforms operations across industries</p>
+            </div>
+            <div class="use-case-tabs" data-aos="fade-up" data-aos-delay="100">
+                <ul class="nav nav-pills mb-4 justify-content-center" id="useCaseTabs" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="healthcare-tab" data-bs-toggle="pill" data-bs-target="#healthcare" type="button" role="tab" aria-controls="healthcare" aria-selected="true">Healthcare</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="retail-tab" data-bs-toggle="pill" data-bs-target="#retail" type="button" role="tab" aria-controls="retail" aria-selected="false">Retail</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="hospitality-tab" data-bs-toggle="pill" data-bs-target="#hospitality" type="button" role="tab" aria-controls="hospitality" aria-selected="false">Hospitality</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="public-tab" data-bs-toggle="pill" data-bs-target="#public" type="button" role="tab" aria-controls="public" aria-selected="false">Public Services</button>
+                    </li>
+                </ul>
+                <div class="tab-content" id="useCaseTabContent">
+                    <div class="tab-pane fade show active" id="healthcare" role="tabpanel" aria-labelledby="healthcare-tab">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6">
+                                <h3>Optimizing Hospital Operations</h3>
+                                <p>AIWAN AI transforms patient interactions and streamlines hospital workflow:</p>
+                                <ul class="use-case-features">
+                                    <li>Efficient patient registration with ID and facial recognition</li>
+                                    <li>Pre-symptom analysis and detailed summaries for doctors</li>
+                                    <li>Automated patient billing and streamlined pharmacy coordination</li>
+                                    <li>Significantly reduced waiting times and operational bottlenecks</li>
+                                    <li>Inclusive design with voice prompts for visually and physically impaired patients</li>
+                                </ul>
+                                <p class="use-case-roi">Cost Benefit: Saves hospitals approximately S$20,000 annually per reception staff.</p>
+                                <a href="#contact" class="btn btn-primary mt-3">Learn More →</a>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="use-case-image healthcare-image"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="retail" role="tabpanel" aria-labelledby="retail-tab">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6">
+                                <h3>Enhancing Retail Customer Experience</h3>
+                                <p>AIWAN transforms retail environments with intelligent customer service:</p>
+                                <ul class="use-case-features">
+                                    <li>Personalized shopping assistance and product recommendations</li>
+                                    <li>Multilingual support for diverse customer bases</li>
+                                    <li>Seamless integration with inventory and POS systems</li>
+                                    <li>Efficient handling of returns and customer inquiries</li>
+                                    <li>24/7 availability even after store hours via digital channels</li>
+                                </ul>
+                                <p class="use-case-roi">Cost Benefit: Reduces staffing needs while increasing sales conversion rates.</p>
+                                <a href="#contact" class="btn btn-primary mt-3">Learn More →</a>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="use-case-image retail-image"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="hospitality" role="tabpanel" aria-labelledby="hospitality-tab">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6">
+                                <h3>Revolutionizing Guest Services</h3>
+                                <p>AIWAN elevates the hospitality experience with personalized service:</p>
+                                <ul class="use-case-features">
+                                    <li>Streamlined check-in/check-out with ID verification</li>
+                                    <li>Multilingual concierge services available 24/7</li>
+                                    <li>Personalized recommendations for dining and activities</li>
+                                    <li>Efficient room service and housekeeping coordination</li>
+                                    <li>Guest recognition and preference management</li>
+                                </ul>
+                                <p class="use-case-roi">Cost Benefit: Enhances guest satisfaction while reducing front desk staffing costs.</p>
+                                <a href="#contact" class="btn btn-primary mt-3">Learn More →</a>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="use-case-image hospitality-image"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="public" role="tabpanel" aria-labelledby="public-tab">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6">
+                                <h3>Modernizing Public Services</h3>
+                                <p>AIWAN improves government and public service efficiency:</p>
+                                <ul class="use-case-features">
+                                    <li>Streamlined document processing and application submissions</li>
+                                    <li>Reduced wait times for citizen services</li>
+                                    <li>Multilingual support for diverse populations</li>
+                                    <li>24/7 information access for public inquiries</li>
+                                    <li>Secure identity verification for sensitive services</li>
+                                </ul>
+                                <p class="use-case-roi">Cost Benefit: Improves service delivery while optimizing public resource allocation.</p>
+                                <a href="#contact" class="btn btn-primary mt-3">Learn More →</a>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="use-case-image public-image"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Section -->
+    <section id="technology" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <h2 class="section-title">Technology That Powers AIWAN</h2>
+                <p class="section-subtitle">Robust platform built for enterprise scalability and security</p>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+                    <div class="tech-image">
+                        <div class="tech-diagram">
+                            <div class="tech-core">AI Core</div>
+                            <div class="tech-layer nlp">Advanced NLP</div>
+                            <div class="tech-layer vision">Computer Vision</div>
+                            <div class="tech-layer security">Security Layer</div>
+                            <div class="tech-layer integration">Integration APIs</div>
+                            <div class="tech-connections"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
+                    <div class="tech-features">
+                        <div class="tech-feature">
+                            <h3><i class="fas fa-brain"></i> Advanced AI Core</h3>
+                            <p>Transformer-based technology powers natural language understanding and generation.</p>
+                        </div>
+                        <div class="tech-feature">
+                            <h3><i class="fas fa-server"></i> Microservices Architecture</h3>
+                            <p>Hosted on reliable cloud infrastructure for maximum uptime and scalability.</p>
+                        </div>
+                        <div class="tech-feature">
+                            <h3><i class="fas fa-lock"></i> Enterprise Security</h3>
+                            <p>PDPA-compliant, encrypted, and secure by design for trusted business operations.</p>
+                        </div>
+                        <div class="tech-feature">
+                            <h3><i class="fas fa-plug"></i> Seamless Integration</h3>
+                            <p>Robust APIs connect with your existing systems for unified operations.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <h2 class="section-title">Simple, Transparent Pricing</h2>
+                <p class="section-subtitle">OPEX-focused business model simplifies client adoption</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3>Smart AI Lite</h3>
+                            <div class="price">S$1,000<span>/month</span></div>
+                        </div>
+                        <div class="pricing-body">
+                            <ul class="pricing-features">
+                                <li><i class="fas fa-check"></i> Zero upfront hardware cost</li>
+                                <li><i class="fas fa-check"></i> Kiosk hardware included</li>
+                                <li><i class="fas fa-check"></i> AI software included</li>
+                                <li><i class="fas fa-check"></i> Basic maintenance & updates</li>
+                                <li><i class="fas fa-check"></i> Standard support</li>
+                                <li><i class="fas fa-check"></i> Volume discounts available</li>
+                            </ul>
+                            <a href="#contact" class="btn btn-outline-primary btn-block">Contact Sales</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="pricing-card featured">
+                        <div class="pricing-badge">Popular</div>
+                        <div class="pricing-header">
+                            <h3>Smart AI Standard</h3>
+                            <div class="price">S$1,500<span>/month</span></div>
+                        </div>
+                        <div class="pricing-body">
+                            <ul class="pricing-features">
+                                <li><i class="fas fa-check"></i> Zero upfront hardware cost</li>
+                                <li><i class="fas fa-check"></i> Premium kiosk hardware</li>
+                                <li><i class="fas fa-check"></i> Advanced AI software</li>
+                                <li><i class="fas fa-check"></i> Comprehensive maintenance</li>
+                                <li><i class="fas fa-check"></i> Priority support</li>
+                                <li><i class="fas fa-check"></i> Volume discounts available</li>
+                            </ul>
+                            <a href="#contact" class="btn btn-primary btn-block">Contact Sales</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3>Smart AI Enterprise</h3>
+                            <div class="price">S$1,800<span>/month</span></div>
+                        </div>
+                        <div class="pricing-body">
+                            <ul class="pricing-features">
+                                <li><i class="fas fa-check"></i> Zero upfront hardware cost</li>
+                                <li><i class="fas fa-check"></i> Premium kiosk hardware</li>
+                                <li><i class="fas fa-check"></i> Enterprise AI capabilities</li>
+                                <li><i class="fas fa-check"></i> Full maintenance & updates</li>
+                                <li><i class="fas fa-check"></i> 24/7 dedicated support</li>
+                                <li><i class="fas fa-check"></i> Custom integration services</li>
+                            </ul>
+                            <a href="#contact" class="btn btn-outline-primary btn-block">Contact Sales</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pricing-note text-center mt-4" data-aos="fade-up" data-aos-delay="400">
+                <p>Volume Discounts: Attractive 10-20% tiers for 5+ units. Contact us for custom enterprise solutions.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ROI Calculator Section -->
+    <section id="roi-calculator" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <h2 class="section-title">Calculate Your Savings</h2>
+                <p class="section-subtitle">See how much your business can save with AIWAN</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8" data-aos="fade-up" data-aos-delay="100">
+                    <div class="calculator-container">
+                        <div class="calculator-inputs">
+                            <div class="form-group">
+                                <label for="staffCount">Number of Staff to Replace:</label>
+                                <input type="number" id="staffCount" class="form-control" value="3" min="1" max="100">
+                            </div>
+                            <div class="form-group">
+                                <label for="staffCost">Average Annual Cost per Staff (S$):</label>
+                                <input type="number" id="staffCost" class="form-control" value="46000" min="10000" max="200000">
+                            </div>
+                            <div class="form-group">
+                                <label for="aiUnits">Number of AIWAN Units:</label>
+                                <input type="number" id="aiUnits" class="form-control" value="1" min="1" max="50">
+                            </div>
+                            <button id="calculateBtn" class="btn btn-primary">Calculate Savings</button>
+                        </div>
+                        <div class="calculator-results">
+                            <div class="result-item">
+                                <h4>Traditional Staffing Cost:</h4>
+                                <div class="result-value" id="traditionalCost">S$138,000</div>
+                            </div>
+                            <div class="result-item">
+                                <h4>AIWAN Solution Cost:</h4>
+                                <div class="result-value" id="aiwanCost">S$21,600</div>
+                            </div>
+                            <div class="result-item total">
+                                <h4>Annual Savings:</h4>
+                                <div class="result-value" id="annualSavings">S$116,400</div>
+                            </div>
+                            <div class="result-item percentage">
+                                <h4>Savings Percentage:</h4>
+                                <div class="result-value" id="savingsPercentage">84%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="cta" class="py-5">
+        <div class="container">
+            <div class="cta-container" data-aos="fade-up">
+                <h2>Transform Your Workforce Today</h2>
+                <p>Join the AI revolution and stay ahead of the competition with AIWAN</p>
+                <div class="cta-buttons">
+                    <a href="#demo" class="btn btn-light btn-lg">Schedule a Demo</a>
+                    <a href="#contact" class="btn btn-outline-light btn-lg">Contact Sales</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <p class="section-subtitle">Get answers to common questions about AIWAN</p>
+            </div>
+            <div class="accordion" id="faqAccordion" data-aos="fade-up" data-aos-delay="100">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            How secure is my data with AIWAN?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            We prioritize data security above all else. AIWAN is built with PDPA compliance at its core, featuring end-to-end encryption, secure data handling protocols, and regular security audits. Your data remains your property, and we implement strict access controls and security measures to protect it.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            How long does implementation take?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Typical deployment periods range from 4-8 weeks, depending on the complexity of your requirements and integration needs. Our implementation process is streamlined to ensure minimal disruption to your operations, with clearly defined integration stages and comprehensive support throughout.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Can AIWAN integrate with our existing systems?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Yes, AIWAN is designed for seamless integration with your existing systems. Our solution integrates with POS, CRM, EMR, and other business systems through robust APIs. Our team will work with you to ensure smooth integration with your specific technology stack.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            What languages does AIWAN support?
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            AIWAN supports multilingual, natural conversations in English, Mandarin, Malay, Tamil, and more. This makes it ideal for Singapore's diverse population and international businesses. Additional languages can be implemented based on your specific requirements.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFive">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            What ongoing support do you provide?
+                        </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            We provide comprehensive ongoing support post-deployment, including regular maintenance, software updates, and technical assistance. Our support packages vary by plan, with our Enterprise tier offering 24/7 dedicated support. All plans include regular system updates to ensure your AIWAN solution continues to improve over time.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+                    <h2 class="section-title">Get in Touch</h2>
+                    <p class="mb-4">Ready to transform your workforce? Contact us today to learn more about AIWAN or schedule a demonstration.</p>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>info@fubukisoft.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+65 1234 5678</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>123 Innovation Way, Singapore 123456</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
+                    <div class="contact-form">
+                        <form id="contactForm">
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="Your Name">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="Your Email">
+                            </div>
+                            <div class="mb-3">
+                                <label for="company" class="form-label">Company</label>
+                                <input type="text" class="form-control" id="company" placeholder="Your Company">
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <img src="FubukiLogo_Horizontalgraytext.png" alt="Fubuki Soft" height="40" class="mb-4">
+                    <p>Transforming Singapore's workforce with AI-powered avatars that deliver consistent, reliable service around the clock.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 mb-4 mb-md-0">
+                    <h5>Product</h5>
+                    <ul class="footer-links">
+                        <li><a href="#capabilities">Features</a></li>
+                        <li><a href="#technology">Technology</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4 mb-4 mb-md-0">
+                    <h5>Solutions</h5>
+                    <ul class="footer-links">
+                        <li><a href="#use-cases">Healthcare</a></li>
+                        <li><a href="#use-cases">Retail</a></li>
+                        <li><a href="#use-cases">Hospitality</a></li>
+                        <li><a href="#use-cases">Public Services</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4 mb-4 mb-md-0">
+                    <h5>Resources</h5>
+                    <ul class="footer-links">
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Case Studies</a></li>
+                        <li><a href="#">Whitepapers</a></li>
+                        <li><a href="#">Webinars</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <h5>Company</h5>
+                    <ul class="footer-links">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#">Partners</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="mt-4 mb-4">
+            <div class="row">
+                <div class="col-md-6 mb-3 mb-md-0">
+                    <p class="mb-0">&copy; 2025 Fubuki Soft. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <ul class="footer-legal">
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
